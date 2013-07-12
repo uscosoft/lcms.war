@@ -1,0 +1,50 @@
+<html>
+
+<head>
+<title>Pagina 03</title>
+</head>
+
+<body>
+
+<form action="procesar.jsp" method="POST">
+
+<p>Apellido(1): 	
+		<input type="text" id="apellido" name="apellido"></p>
+
+<p>Nombre: 	
+		<input type="text" id="nombre" name="nombre"></p>
+
+<p>Deporte: 	
+		<input type="checkbox" id="deporte" value="1" name="deporte">Natación
+		<input type="checkbox" id="deporte" value="2" name="deporte">Futbol
+		<input type="checkbox" id="deporte" value="3"  name="deporte" checked>Ajedrez
+</p>
+
+<p>Genero: 	
+		<input type="radio" name="genero" id="genero" value="F" name="genero">Femenino
+		<input type="radio" name="genero" id="genero" value="M" name="genero">Masculino
+</p>
+
+<p>Programa: 	
+		<select id="programa" name="programa">
+		<option value="TDS">Tecnología en Desarrollo de Software
+		<option value="PETROLEOS">Ingeniería de Petroleos
+		<option value="ELECTRONICA">Ingeniería Electrónica
+		</select>
+</p>
+
+<p>Observación: 
+		<textarea id="observacion" name="observacion" cols="80" rows="5">
+		</textarea>
+</p>
+
+<p>		<input type="submit" value="Enviar">
+		<input type="reset" value="Restablecer">
+		<input type="button" value="Validar">
+</p>
+
+</form>
+
+</body>
+
+</html>
